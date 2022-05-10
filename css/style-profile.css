@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+:root {
+  --v1: #2fe8b6;
+  --v2: #422b77;
+  --v3:#f2eeeb;
+  --v4:#242635;
+  --v6: #585D82;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: var(--v4);
+}
+
+
+/*Hero*/
+.card-profile {
+  max-width: 350px;
+  margin: 150px auto 0;
+  text-align: center;
+  font-size: 20px;
+  background-color: var(--v3);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.card-profile:hover {
+  box-shadow: 0px 1px 15px 0px rgb(255, 255, 255, 0.5);
+}
+
+.card-header {
+  position: relative;
+  height: 48px;
+}
+
+.profile-img {
+  position: absolute;
+  border-radius: 120px;
+  border: 8px solid #E8DF23;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 20px #00000033;
+}
+
+.profile-img:hover {
+  width: 150px;
+  height: 150px;
+  border: 8px solid #E8DF23;
+  box-shadow: 0px 1px 15px 0px rgb(255, 255, 255, 0.5);
+}
+
+.card-body {
+  padding: 10px 40px;
+  /*padding: 1px 20px 10px 20px !important;*/
+}
+
+.name {
+  font-size: 22px;
+  font-weight: bold;
+  color: #c74385;
+}
+
+.name a {
+  color: black;
+}
+
+.profile-text {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: #ffffff;
+  font-size: 20px;
+  background-color: var(--v6);
+  border-radius: 100%;
+  text-decoration: none;
+  margin: 0 13px 30px 0;
+}
+
+.social-icon:last-child {
+  margin-right: 0;
+}
+
+.social-icon:hover {
+  width: 45px;
+  height: 45px;
+  background-color: var(--v6);
+  text-decoration: none;
+}
+
+.icon-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 0px 20px 0px 20px;
+  color: rgb(214, 70, 232);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.icon-profile i:hover {
+  transform: scale(0.9);
+  
+}
+
+.card-footer {
+  margin-bottom: 75px;
+  padding: 20px 0 20px 0;
+  background-color: #E8DF23;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;
+}
+
+.card-footer:hover {
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5); 
+}
+
+.card-footer a {
+  font-size: 16px;
+  text-decoration: none;
+  color: black
+}
+
+
+
+@media (max-width: 23.5rem) {
+  /*376px*/
+
+  .card-profile {
+    width: 80%;
+  }
+}
