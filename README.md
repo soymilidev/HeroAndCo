@@ -2,8 +2,8 @@
 
 🔭 Proyecto de cards sobre superhéroes.
 
-🔗 [Web-HeroAndCo](https://bit.ly/3FwOLbQ)
+🔗 [Web-HeroAndCo](https://hero-and-co.vercel.app/)
 
 
 ### Preview
-![HeroAndCo](https://raw.githubusercontent.com/soymilidev/Proyectos/main/01-HeroAndCo/img/HeroAndCo-mockup.jpg)
+![HeroAndCo](https://github.com/soymilidev/HeroAndCo/blob/main/img/HeroAndCo-mockup.jpg)
